@@ -22,10 +22,15 @@ console.log(book1)
 
 //2- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
 
-let book2 = [{title: 'Geometry', pageCount: 200, genre: 'mathematics', authors: {name: 'Butuzov', age: 50}} ,
-    {title: 'Algebra', pageCount: 100, genre: 'mathematics', authors: {name: 'Bolotov', age: 55}} ,
-    {title: 'Geometry', pageCount: 150, genre: 'mathematics', authors: {name: 'Floy', age: 60}}
-]
+let book2 = [{title: 'Geometry',
+              pageCount: 200,
+              genre: 'mathematics',
+              authors: [{name: 'Floy',
+                          age: 60},
+                        {name: 'Flyu',
+                            age: 66} ]
+            }
+          ]
 console.log(book2)
 
 
