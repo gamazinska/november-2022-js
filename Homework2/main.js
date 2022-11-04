@@ -25,11 +25,19 @@ console.log(book1)
 let book2 = [{title: 'Geometry',
               pageCount: 200,
               genre: 'mathematics',
-              authors: [{name: 'Floy',
+             authors: [{name: 'Floy',
                           age: 60},
                         {name: 'Flyu',
-                            age: 66} ]
-            }
+                            age: 66}]
+            },
+    {title: 'Algebra',
+        pageCount: 250,
+        genre: 'mathematics',
+        authors: [{name: 'Flin',
+            age: 50},
+            {name: 'Fly',
+                age: 67} ]
+    }
           ]
 console.log(book2)
 
