@@ -115,13 +115,18 @@
 //or
 
 //let x = 'str';
-//if (!x !== false) {
+//if (!x !== f''else) {
 //    console.log('default');
 //}else {
-//    console.log  ('Hello');
+//  console.log  ('Hello');
 //}
 
+//or
 
-
-
+//let x = 0;
+//if (0) {
+//    console.log('hello');
+//} else {
+//    console.log('default');
+//}
 
